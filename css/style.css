@@ -594,11 +594,11 @@ nav>.leftnav>p{
 .contactRight form input{
     border-radius: 30px;
     margin: 10px 5px 10px 5px;
-    width: 260px;
+    width: 280px;
 }
 .contactRight form textarea{
     margin: 10px 5px 10px 5px;
-    width: 260px;
+    width: 280px;
     height: 40px;
 }
 .contactRight form textarea {
@@ -778,5 +778,51 @@ footer>p{
     top: 0;
 }
 .contactEndCard>div:first-child{
-    width: 40vw;
+    width: 38vw;
+    text-align: justify;
+
+}
+
+.contactPageCradleft>p:first-child{
+    border-left: 4px solid #f07b89;
+    color: #f07b89;
+    padding-left: 4px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contactPageCradleft>h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.contentOfCard{
+    font-size: 16px;
+    color: #99989c;
+}
+.contactPageCradleft>ul{
+    list-style: none;
+}
+.contactPageCradleft>ul{
+    margin-top: 46px;
+}
+.contactPageCradleft>ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: fit-content;
+    padding: 16px 30px 16px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.contactPageCradleft>ul>li>img{
+    margin-right: 10px;
+}
+.contactPageCradleft>ul>li>div>p:first-child{
+    font-weight: bold;
+}
+.contactPageCradleft>ul>li>div>p:last-child{
+    color: #99989c;
+    margin-top: 2px;
 }
