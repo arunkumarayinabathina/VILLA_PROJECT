@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 1000vh;
-}
 .addressSocial{
     display: flex;
     align-items: center;
@@ -63,10 +60,14 @@ nav{
     list-style: none;
     font-size: 13px;
     font-weight:600;
+    
+}
+.rightnav>ul>li>a{
     color: rgb(41, 38, 38);
+    text-decoration: none;
 }
 nav>.leftnav>p{
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(20, 18, 18);
     font-family:Impact,sans-serif;
 }
@@ -493,4 +494,199 @@ nav>.leftnav>p{
     color: #f35626;
     font-weight: 600;
     font-size: 20px;
+}
+.fabOne p{
+    color: #99989c;
+}
+.fabOne p strong{
+    color: black;
+    margin-left: 2%;
+    font-size: 14px;
+}
+.fabTwo p{
+    color: #99989c;
+}
+.fabTwo p strong{
+    margin-left: 1px;
+    font-size: 14px;
+    color: black;
+}
+.locationContact{
+    background-image: url('../images/contact-bg.jpg');
+    height: 50vh;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.locationContact{
+    position: relative;
+}
+.leftContact{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.leftContact>ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.contactRight{
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    background-color:#fafafa;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.leftContact>ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.leftContact>ul>li>div>p:first-child{
+    font-weight: bold;
+}
+.leftContact>ul>li>div>p:last-child{
+    color: #99989c;
+}
+.contactRight{
+    min-width: 280px;
+    max-width: 350px;
+    background-color:white;
+    padding: 0px;
+    border-radius: 6px;
+    height: fit-content;
+}
+.contactRight>form>label{
+   padding-left: 6px;
+   color:#99989c;
+   font-weight: bold;
+   font-size: 12px;
+   padding-top:40px;
+   /* margin-top: 80px; */
+}
+.contactRight>form{
+    padding-top: 10px;
+}
+.contactRight form input,
+.contactRight form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    /* margin-top: 18px; */
+    margin-bottom: 18px;
+    padding: 8px;
+    border: none;
+    background-color: #eae8e8;
+}
+.contactRight form input{
+    border-radius: 30px;
+    margin: 10px 5px 10px 5px;
+    width: 260px;
+}
+.contactRight form textarea{
+    margin: 10px 5px 10px 5px;
+    width: 260px;
+    height: 40px;
+}
+.contactRight form textarea {
+    height: 80px;
+}
+
+.contactRight form button {
+    /* width: 100%; */
+    padding: 12px 22px 12px 22px;
+    margin: 10px 8px 20px 8px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.locationContact>div>p{
+    border-left: 5px solid #EE5921;
+    padding-left: 4px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 12px;
+    color: #EE5921;
+}
+.locationContact>div>h3{
+    font-size: 30px;
+    color: white;
+}
+.locationContact>.headingOfContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+}
+footer {
+  margin-top: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+}
+footer>p{
+    margin-left: 250px;
+    font-size: 12px;
+    color: #fafafa;
+}
+.ProprtiesMain{
+    background-image: url('../images/page-heading-bg.jpg');
+    height: 40vh;
+}
+.ProprtiesMain>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ProprtiesMain>div>p{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.ProprtiesMain>div>h3{
+    color: white;
+    font-size: 45px;
+}
+.btnsOfProperty>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.btnsOfProperty>ul>li{
+    background-color: rgb(34, 33, 33);
+    color: white ;
+    padding: 8px 12px 8px 12px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+}
+.btnsOfProperty>ul>li:first-child{
+    background-color: #EE5921;
 }
