@@ -310,6 +310,7 @@ nav>.leftnav>p{
 .bestdeals>div>p{
     border-left: 4px solid #ef757c;
     padding-left: 4px;
+    color: #ef757c;
 }
 .bestDealsHeader{
     display: flex;
@@ -654,7 +655,7 @@ footer>p{
 }
 .ProprtiesMain{
     background-image: url('../images/page-heading-bg.jpg');
-    height: 40vh;
+    height: 30vh;
 }
 .ProprtiesMain>div{
     display: flex;
@@ -667,13 +668,14 @@ footer>p{
     font-size: 14px;
     font-weight: 600;
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 .ProprtiesMain>div>h3{
     color: white;
     font-size: 45px;
 }
+
 .btnsOfProperty>ul{
     display: flex;
     align-items: center;
@@ -722,4 +724,43 @@ footer>p{
 
 .marginRemove{
     margin-top: 0px;
+}
+.singlePropertyMain{
+    display: flex;
+    margin: 70px 40px 20px 80px;
+    gap: 80px;
+}
+.singlePropertyMain>img{
+    width: 750px;
+    height: 330px;
+}
+.singlePropertyMiddle{
+    margin: 40px 40px 20px 80px;
+}
+.singlePropertyMiddle>p{
+    width: 60vw;
+    font-size: 15px;
+}
+.singlePropertyMiddle>p>a{
+    text-decoration: none;
+    color: rgb(46, 170, 219);
+}
+.spmH{
+    background-color: #f0bdac;
+    display: inline;
+    padding: 5px 9px 5px 9px;
+    border-radius: 6px;
+}
+.singlePropertyMiddle>h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.singlePropertyQuestions{
+   margin: 50px 40px 20px 78px;
+   width: 60vw;
+}
+.middleFeatured>.featuredQuestions hr{
+    border: none;                
+    height: 0.8px;                
+    background-color: #99989c; 
 }
