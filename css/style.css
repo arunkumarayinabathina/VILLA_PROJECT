@@ -840,3 +840,109 @@ footer>p{
 .contactFooter{
     margin-top: 30px;
 }
+
+@media (min-width:320px) and (max-width:425px) {
+    .addressSocial>.asleft,.asright{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .mainflexarea{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .mainflexarea>.flexAreaBox{
+        width: 80%;
+    }
+    .flexAreaBox{
+        width: 80%;
+    }
+    .falux{
+        display: flex;
+        flex-direction: column;
+    }
+    .addressSocial{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightnav>button{
+        display: none;
+    }
+    .mainbestDelas{
+        display: flex;
+        flex-direction: column;
+    }
+    .bestdeals{
+        width: 80vw;
+    }
+    .mainbestDelasMiddle{
+        display: none;
+    }
+    nav>.rightnav>ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-right:0px;
+    }
+    .locationContact>.leftContact{
+        display: none;
+    }
+    .locationContact>.contactRight{
+        left: 30px;
+    }
+    .featured{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer>p{
+        margin-left: 0px;
+    }
+    .mainScroll{
+        width: 100vw;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainbestDelasRight>button{
+        margin-top: 2px;
+    }
+    .singlePropertyMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .singlePropertyMain>img{
+        width: 70vw;
+    }
+    .mainbestDealsLeft>ul>li{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainbestDealsLeft{
+        width: 100px;
+    }
+    .leftBest{
+        display: none;
+    }
+    .mainbestDelasRight>p,.mainbestDelasRight>h3{
+        display: none;
+    }
+    .mainbestDelas>.mainbestDealsLeft{
+        height: 200px;
+    }
+    .mainbestDelas>.mainbestDealsLeft>ul>li>p{
+        font-size: 10px;
+    }
+    .mainbestDelasRight{
+        display: flex;
+        flex-direction: column;
+    }
+}
